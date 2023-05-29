@@ -90,6 +90,7 @@ def main():
 
     args = parser.parse_args()
 
+    print("Fetching.. this may take a while..")
     user_library = fetch_steam_libraries(args.user)
     friend_library = fetch_steam_libraries(args.friend)
 
