@@ -1,3 +1,6 @@
+# Build metadata
+gamefusion.egg-info/
+
 app.log
 compare.py
 .vscode/settings.json
